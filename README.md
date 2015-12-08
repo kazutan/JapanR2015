@@ -6,11 +6,11 @@
 
 スライドは以下をクリックしてください(htmlスライド)
 
-- (当日にUpします)
+- [slide link.](https://kazutan/github.io/JapanR2015/leaflet_s.html)
 
 htmlドキュメント形式の資料は以下をクリックしてください
 
-- (当日にUpします)
+- (後日Upします)
 
 資料に関する問い合わせなどは、@kazutan もしくは本リポジトリのissueにお願いします。
 
