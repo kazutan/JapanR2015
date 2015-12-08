@@ -402,9 +402,9 @@ leaflet(df) %>% addTiles() %>% addMarkers(~lng,~lat) %>%
 ## メジャー(距離測定)
 インタラクティブ!!
 
-```{r measure}
+```{r add_measure}
 leaflet(df) %>% addTiles() %>% addMarkers(~lng,~lat) %>% 
-	addMeasure(position = "bottomleft", primaryLengthUnit = "meters", 
+	addMeasure(position = "topright", primaryLengthUnit = "meters", 
 						 primaryAreaUnit = "sqmeters", activeColor = "#3D535D",
 						 completedColor = "#7D4479")
 ```
@@ -422,5 +422,7 @@ leaflet(df) %>% addTiles() %>% addMarkers(~lng,~lat) %>%
 ```
 
 ## Enjoy!
+
+http://rpubs.com/kazutan/leaflet_slide
 
 ![](icon_tw3.png)
