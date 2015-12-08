@@ -6,7 +6,7 @@
 
 スライドは以下をクリックしてください(htmlスライド)
 
-- [slide link.](https://kazutan/github.io/JapanR2015/leaflet_s.html)
+- [slide link.](https://kazutan.github.io/JapanR2015/leaflet_s.html)
 
 htmlドキュメント形式の資料は以下をクリックしてください
 
