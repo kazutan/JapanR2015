@@ -8,9 +8,9 @@
 
 - [slide link.](https://kazutan.github.io/JapanR2015/leaflet_s.html)
 
-htmlドキュメント形式の資料は以下をクリックしてください
+htmlドキュメントとして再編集した資料は以下をクリックしてください
 
-- (後日Upします)
+- [html doc.](https://kazutan.github.io/JapanR2015/leaflet_d.html)
 
 資料に関する問い合わせなどは、@kazutan もしくは本リポジトリのissueにお願いします。
 
