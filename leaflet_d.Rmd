@@ -60,7 +60,7 @@ df_layer=data.frame(Category=c("tile","marker", "popup", "shape", "geojson", "to
 knitr::kable(df_layer)
 ```
 
-それぞれについては、後で説明します。
+大体のイメージがつかめればOKです。
 
 ## 基本的な考え方
 以下のような手順で作成します:
@@ -219,7 +219,7 @@ knit_print.htmlwidget <- function (widget, ..., options = NULL)
 }
 ```
 
-これは@yutannihilationさんが教えてくれたものです。ありがとうございます。
+これはr-wakalangでyutannihilationさんから教えていただきました。ありがとうございます。
 
 詳細は省略しますが、地図の部分を`iframe`要素として組み込むためのものです。ただこれだけだとサイズが小さく組み込まれるので、私はcssに以下の設定を組み込んでいます:
 
@@ -237,6 +237,7 @@ knit_print.htmlwidget <- function (widget, ..., options = NULL)
 
 ## Shiny
 これが一番すごく、インタラクティブな地図アプリを作成可能となります。方法については公式ドキュメントを参照してください。また、具体的な例については、以下を参照してください:
+
 - [Twitter ShinyappsResent](https://twitter.com/ShinyappsRecent)
 - [Recent Shiny Applications - Shinyapps Gallery](https://shinyapps-recent.appspot.com/recent.html)
 
@@ -444,6 +445,11 @@ leaflet(df) %>% addTiles() %>% addMarkers(~lng,~lat) %>%
 
 bootstrapのglyphiconなどを利用できます。まず`awesomeIconList()`でアイコンセットを作成します。詳細はコードを確認していただき、使用している関数のヘルプを参照してください。
 
+# さいごに
+
+この他にも、Rasterを重ねてコロプラスマッピングをすることもできますし、GIS系でよく使われるデータにも対応しています。このあたりは公式ドキュメントなどを参照してください。
+
+R Advent Calendar2015、次は[kos59125](https://twitter.com/kos59125)さんです。自分としてはなんとかその日に公開できたのでホッとしてます。
 
 Enjoy!
 
